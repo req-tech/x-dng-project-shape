@@ -1,0 +1,1374 @@
+<HTML><BODY>
+<H1>Type system report</H1>
+<H2>Application Queryable Resource Types, short name and URI</H2>
+<TABLE><THEADING>
+<TH>Short Name</TH><TH>URI</TH><TH>Query Capability URI</TH></THEADING>
+</TABLE>
+<H2>Project Queryable Resource Types, short name and URI</H2>
+<TABLE><THEADING>
+<TH>Short Name</TH><TH>URI</TH><TH>Query Capability URI</TH></THEADING>
+  <TR>    <TD>ReqIFDefinition</TD>
+    <TD>http://jazz.net/ns/rm/dng/reqif#ReqIFDefinition</TD>
+    <TD>https://clm.celeris.se/rm/reqif_oslc/definitions/query?componentURI=https%3A%2F%2Fclm.celeris.se%2Frm%2Fcm%2Fcomponent%2F_NO35cEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>View</TD>
+    <TD>http://jazz.net/ns/rm/dng/view#View</TD>
+    <TD>https://clm.celeris.se/rm/views_oslc/query?componentURI=https%3A%2F%2Fclm.celeris.se%2Frm%2Fcm%2Fcomponent%2F_NO35cEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>folder</TD>
+    <TD>http://jazz.net/ns/rm/navigation#folder</TD>
+    <TD>https://clm.celeris.se/rm/folders?oslc.where=public_rm:parent=https%3A%2F%2Fclm.celeris.se%2Frm%2Fprocess%2Fproject-areas%2F_Mks7EEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>Requirement (default)</TD>
+    <TD>http://open-services.net/ns/rm#Requirement</TD>
+    <TD>https://clm.celeris.se/rm/views?oslc.query=true&projectURL=https%3A%2F%2Fclm.celeris.se%2Frm%2Fprocess%2Fproject-areas%2F_Mks7EEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>RequirementCollection</TD>
+    <TD>http://open-services.net/ns/rm#RequirementCollection</TD>
+    <TD>https://clm.celeris.se/rm/views?oslc.query=true&projectURL=https%3A%2F%2Fclm.celeris.se%2Frm%2Fprocess%2Fproject-areas%2F_Mks7EEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+</TABLE>
+<H2>Project Factory Resource Types, short name and URI</H2>
+<TABLE><THEADING>
+<TH>Short Name</TH><TH>URI</TH><TH>Query Capability URI</TH></THEADING>
+  <TR>    <TD>DeliverySession</TD>
+    <TD>http://jazz.net/ns/rm/dng/config#DeliverySession</TD>
+    <TD>https://clm.celeris.se/rm/delivery-sessions</TD>
+  </TR>
+  <TR>    <TD>ReqIFDefinition</TD>
+    <TD>http://jazz.net/ns/rm/dng/reqif#ReqIFDefinition</TD>
+    <TD>https://clm.celeris.se/rm/reqif_oslc/definitions?componentURI=https%3A%2F%2Fclm.celeris.se%2Frm%2Fcm%2Fcomponent%2F_NO35cEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>ReqIFExport</TD>
+    <TD>http://jazz.net/ns/rm/dng/reqif#ReqIFExport</TD>
+    <TD>https://clm.celeris.se/rm/reqif_oslc/export?componentURI=https%3A%2F%2Fclm.celeris.se%2Frm%2Fcm%2Fcomponent%2F_NO35cEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>ReqIFImport</TD>
+    <TD>http://jazz.net/ns/rm/dng/reqif#ReqIFImport</TD>
+    <TD>https://clm.celeris.se/rm/reqif_oslc/import?componentURI=https%3A%2F%2Fclm.celeris.se%2Frm%2Fcm%2Fcomponent%2F_NO35cEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>ReqIFPackage</TD>
+    <TD>http://jazz.net/ns/rm/dng/reqif#ReqIFPackage</TD>
+    <TD>https://clm.celeris.se/rm/reqif_oslc/import?componentURI=https%3A%2F%2Fclm.celeris.se%2Frm%2Fcm%2Fcomponent%2F_NO35cEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>Requirement (default)</TD>
+    <TD>http://open-services.net/ns/rm#Requirement</TD>
+    <TD>https://clm.celeris.se/rm/requirementFactory?projectURL=https%3A%2F%2Fclm.celeris.se%2Frm%2Fprocess%2Fproject-areas%2F_Mks7EEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>RequirementCollection</TD>
+    <TD>http://open-services.net/ns/rm#RequirementCollection</TD>
+    <TD>https://clm.celeris.se/rm/requirementFactory?projectURL=https%3A%2F%2Fclm.celeris.se%2Frm%2Fprocess%2Fproject-areas%2F_Mks7EEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>http://www.ibm.com/xmlns/rdm/types/TypeImportSession</TD>
+    <TD>http://www.ibm.com/xmlns/rdm/types/TypeImportSession</TD>
+    <TD>https://clm.celeris.se/rm/type-import-sessions</TD>
+  </TR>
+</TABLE>
+<h2>Shapes<h2>
+
+<TABLE><THEADING>
+<TH>Shape</TH><TH>Property Name</TH><TH>Property label</TH><TH>URI</TH></THEADING>
+  <TR>    <TD>Actor                    </TD>
+  </TR>
+  <TR>    <TD>'Diagrams and sketches'  </TD>
+  </TR>
+  <TR>    <TD>'Hardware Requirement'   </TD>
+  </TR>
+  <TR>    <TD>'Hardware Specification' </TD>
+  </TR>
+  <TR>    <TD>'Hazard and Risk'        </TD>
+  </TR>
+  <TR>    <TD>'Hazard and Risk Register'</TD>
+  </TR>
+  <TR>    <TD>Heading                  </TD>
+  </TR>
+  <TR>    <TD>Information              </TD>
+  </TR>
+  <TR>    <TD>'Personal Collection'    </TD>
+  </TR>
+  <TR>    <TD>'Release Collection'     </TD>
+  </TR>
+  <TR>    <TD>'Requirements Specification'</TD>
+  </TR>
+  <TR>    <TD>'Software Requirement'   </TD>
+  </TR>
+  <TR>    <TD>'Software Specification' </TD>
+  </TR>
+  <TR>    <TD>'Stakeholder Requirement'</TD>
+  </TR>
+  <TR>    <TD>'Stakeholder Specification'</TD>
+  </TR>
+  <TR>    <TD>'System Requirement'     </TD>
+  </TR>
+  <TR>    <TD>'System Specification'   </TD>
+  </TR>
+  <TR>    <TD>Term                     </TD>
+  </TR>
+  <TR>    <TD>'Use Case Module'        </TD>
+  </TR>
+  <TR>    <TD>'Vision Statement'       </TD>
+  </TR>
+  <TR>    <TD>'Vison document'         </TD>
+  </TR>
+</TABLE>
+<h2>Properties with no shape</h2>
+
+<TABLE><THEADING>
+<TH>Shape</TH><TH>Property Name</TH><TH>Property label</TH><TH>URI</TH></THEADING>
+  <TR>    <TD>Accepted</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DzkqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Alternative Spelling'</TD>
+    <TD></TD>
+    <TD>rdm_types:AlternateSpelling</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Approved By'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DzEqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Approver Position'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0Dv0qNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Child Of'</TD>
+    <TD></TD>
+    <TD>rdm_types:Decomposition</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Clarity</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0Dz0qNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>High</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWHEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWHEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Low</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWGkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWGkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Medium</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWG0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWG0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>cmint_applied_RCR_numbers</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0D0EqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Contributor</TD>
+    <TD></TD>
+    <TD>dcterms:contributor</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Created On'</TD>
+    <TD></TD>
+    <TD>dcterms:created</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Creator</TD>
+    <TD></TD>
+    <TD>dcterms:creator</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Derives Architecture Element'</TD>
+    <TD></TD>
+    <TD>http://jazz.net/ns/dm/linktypes#derives</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Description</TD>
+    <TD></TD>
+    <TD>dcterms:description</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Elaborated By'</TD>
+    <TD></TD>
+    <TD>oslc_rm:elaboratedBy</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Elaborates</TD>
+    <TD></TD>
+    <TD>oslc_rm:elaborates</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Embeds</TD>
+    <TD></TD>
+    <TD>rdm_types:Embedding</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Extracted</TD>
+    <TD></TD>
+    <TD>rdm_types:Extraction</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Identifier</TD>
+    <TD></TD>
+    <TD>dcterms:identifier</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Initial PHSLH'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0D1UqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWFEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWFEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Certain</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWDUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWDUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Extremely Unlikely'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWE0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWE0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Likely</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWDkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWDkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Somewhat Likely'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Unlikely</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Very Likely'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWD0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWD0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Very Unlikely'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Initial POHS'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0Dw0qNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQ0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQ0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Infrequent</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Intermittent</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMP0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMP0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Rare</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Reoccuring</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMPkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMPkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Unanticipated</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Initial POOH'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0D1EqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWB0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWB0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Frequent</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWAkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWAkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Negligible</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Occasional</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Probable</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWA0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWA0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Remote</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Initial Risk'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DvUqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJ0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJ0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Acceptable</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMIkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMIkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>ALARP</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Broadly Acceptable'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Marginally Acceptable'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Unacceptable</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMI0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMI0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Initial Severity'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0Dx0qNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Catastrophic</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMKUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMKUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Critical</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMKkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMKkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Minor</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Negligible</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Severe</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMK0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMK0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Link To'</TD>
+    <TD></TD>
+    <TD>rdm_types:Link</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Mitigates</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/LT_cc0DckqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Modified On'</TD>
+    <TD></TD>
+    <TD>dcterms:modified</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Need</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0Dy0qNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Desirable</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWHUqNEe-lXMAnwStbdQ#_cXvWIEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWHUqNEe-lXMAnwStbdQ#_cXvWIEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Luxury</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWHUqNEe-lXMAnwStbdQ#_cXvWIUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWHUqNEe-lXMAnwStbdQ#_cXvWIUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Mandatory</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWHUqNEe-lXMAnwStbdQ#_cXvWHkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWHUqNEe-lXMAnwStbdQ#_cXvWHkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Very Desirable'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWHUqNEe-lXMAnwStbdQ#_cXvWH0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWHUqNEe-lXMAnwStbdQ#_cXvWH0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>oslc:instanceShape</TD>
+    <TD></TD>
+    <TD>oslc:instanceShape</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Actor</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D2kqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D2kqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Diagrams and sketches'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D30qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D30qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Hardware Requirement'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D5EqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D5EqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Hardware Specification'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D20qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D20qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Hazard and Risk'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D4UqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D4UqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Hazard and Risk Register'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D60qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D60qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Heading</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D40qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D40qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Information</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D7EqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D7EqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Personal Collection'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D50qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D50qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Release Collection'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D6kqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D6kqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Requirements Specification'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D3EqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D3EqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Software Requirement'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D3kqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D3kqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Software Specification'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D3UqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D3UqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Stakeholder Requirement'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D6UqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D6UqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Stakeholder Specification'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D4kqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D4kqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'System Requirement'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D5UqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D5UqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'System Specification'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D7kqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D7kqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Term</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D6EqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D6EqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Use Case Module'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D4EqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D4EqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Vision Statement'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D5kqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D5kqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Vison document'</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D7UqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/OT_cc0D7UqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Primary Text'</TD>
+    <TD></TD>
+    <TD>jazz_rm:primaryText</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Priority</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DyUqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>High</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWHEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWHEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Low</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWGkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWGkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Medium</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWG0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWG0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>Product</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0D1kqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmML0qNEe-lXMAnwStbdQ#_cXmMNEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmML0qNEe-lXMAnwStbdQ#_cXmMNEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'AMR System'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmML0qNEe-lXMAnwStbdQ#_cXmMMEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmML0qNEe-lXMAnwStbdQ#_cXmMMEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Central Control'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmML0qNEe-lXMAnwStbdQ#_cXmMMkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmML0qNEe-lXMAnwStbdQ#_cXmMMkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Handheld</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmML0qNEe-lXMAnwStbdQ#_cXmMMUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmML0qNEe-lXMAnwStbdQ#_cXmMMUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Meter</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmML0qNEe-lXMAnwStbdQ#_cXmMM0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmML0qNEe-lXMAnwStbdQ#_cXmMM0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>Questions</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DuEqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>References</TD>
+    <TD></TD>
+    <TD>dcterms:references</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'References Term'</TD>
+    <TD></TD>
+    <TD>rdm_types:ArtifactTermReferenceLink</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Refined By Architecture Element'</TD>
+    <TD></TD>
+    <TD>http://jazz.net/ns/dm/linktypes#refine</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Release</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0D00qNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>REL-1</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMTkqNEe-lXMAnwStbdQ#_cXmMT0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMTkqNEe-lXMAnwStbdQ#_cXmMT0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>REL-2</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMTkqNEe-lXMAnwStbdQ#_cXvWAEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMTkqNEe-lXMAnwStbdQ#_cXvWAEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Req. Ref.'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DvEqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Requirement Type'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0D2UqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Functional</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMSkqNEe-lXMAnwStbdQ#_cXmMS0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMSkqNEe-lXMAnwStbdQ#_cXmMS0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>N/A</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMSkqNEe-lXMAnwStbdQ#_cXmMTUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMSkqNEe-lXMAnwStbdQ#_cXmMTUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Non-Functional</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMSkqNEe-lXMAnwStbdQ#_cXmMTEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMSkqNEe-lXMAnwStbdQ#_cXmMTEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Residual PHSLH'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DxEqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWFEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWFEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Certain</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWDUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWDUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Extremely Unlikely'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWE0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWE0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Likely</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWDkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWDkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Somewhat Likely'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Unlikely</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Very Likely'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWD0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWD0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Very Unlikely'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWDEqNEe-lXMAnwStbdQ#_cXvWEkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Residual POHO'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DwEqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWB0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWB0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Frequent</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWAkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWAkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Negligible</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Occasional</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Probable</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWA0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWA0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Remote</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWAUqNEe-lXMAnwStbdQ#_cXvWBUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Residual POHS'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0Du0qNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQ0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQ0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Infrequent</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Intermittent</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMP0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMP0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Rare</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Reoccuring</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMPkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMPkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Unanticipated</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMPUqNEe-lXMAnwStbdQ#_cXmMQkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Residual Risk'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0D2EqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJ0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJ0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Acceptable</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMIkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMIkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>ALARP</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Broadly Acceptable'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Marginally Acceptable'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMJEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Unacceptable</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMI0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMIUqNEe-lXMAnwStbdQ#_cXmMI0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Residual Severity'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DwUqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Catastrophic</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMKUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMKUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Critical</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMKkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMKkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Minor</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Negligible</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMLUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Severe</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMK0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMKEqNEe-lXMAnwStbdQ#_cXmMK0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Risk Status'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DyEqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>--</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWFUqNEe-lXMAnwStbdQ#_cXvWGEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWFUqNEe-lXMAnwStbdQ#_cXvWGEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Closed</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWFUqNEe-lXMAnwStbdQ#_cXvWF0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWFUqNEe-lXMAnwStbdQ#_cXvWF0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Open</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWFUqNEe-lXMAnwStbdQ#_cXvWFkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWFUqNEe-lXMAnwStbdQ#_cXvWFkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'Satisfied By Architecture Element'</TD>
+    <TD></TD>
+    <TD>http://jazz.net/ns/dm/linktypes#satisfy</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Satisfies</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/LT_cc0DcUqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Schedule</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DykqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Beyond Version 2'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWCEqNEe-lXMAnwStbdQ#_cXvWC0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWCEqNEe-lXMAnwStbdQ#_cXvWC0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Version 1'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWCEqNEe-lXMAnwStbdQ#_cXvWCUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWCEqNEe-lXMAnwStbdQ#_cXvWCUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Version 2'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWCEqNEe-lXMAnwStbdQ#_cXvWCkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWCEqNEe-lXMAnwStbdQ#_cXvWCkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>Source</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DukqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Specified By'</TD>
+    <TD></TD>
+    <TD>oslc_rm:specifiedBy</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Specifies</TD>
+    <TD></TD>
+    <TD>oslc_rm:specifies</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Stability</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DwkqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>High</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWHEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWHEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Low</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWGkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWGkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Medium</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWG0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWGUqNEe-lXMAnwStbdQ#_cXvWG0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>'State (Default)'</TD>
+    <TD></TD>
+    <TD>http://www.ibm.com/xmlns/rdm/workflow/DefaultWorkflow</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Status</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DzUqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Approved</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWJUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWJUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'In Process'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWJEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWJEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Obsolete</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWKEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWKEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Postponed</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWJ0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWJ0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Prelimanry</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWI0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWI0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Rejected</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWJkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXvWIkqNEe-lXMAnwStbdQ#_cXvWJkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>Synonym</TD>
+    <TD></TD>
+    <TD>rdm_types:SynonymLink</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Test Criteria'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0D0kqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Test Status'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DxkqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Fail</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMREqNEe-lXMAnwStbdQ#_cXmMSUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMREqNEe-lXMAnwStbdQ#_cXmMSUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Not finished'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMREqNEe-lXMAnwStbdQ#_cXmMR0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMREqNEe-lXMAnwStbdQ#_cXmMR0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Not started'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMREqNEe-lXMAnwStbdQ#_cXmMRUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMREqNEe-lXMAnwStbdQ#_cXmMRUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Not to be tested'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMREqNEe-lXMAnwStbdQ#_cXmMRkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMREqNEe-lXMAnwStbdQ#_cXmMRkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Pass</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMREqNEe-lXMAnwStbdQ#_cXmMSEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMREqNEe-lXMAnwStbdQ#_cXmMSEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD>Title</TD>
+    <TD></TD>
+    <TD>dcterms:title</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Traced By Architecture Element'</TD>
+    <TD></TD>
+    <TD>http://jazz.net/ns/dm/linktypes#trace</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>Verifiability</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0D10qNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD>'Verification Method'</TD>
+    <TD></TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DvkqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Analysis</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMN0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMN0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Comparison</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMOEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMOEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Demonstration</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMOkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMOkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Inspection</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMOUqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMOUqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>N/A</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMNkqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMNkqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>'Not Set'</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMPEqNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMPEqNEe-lXMAnwStbdQ</TD>
+  </TR>
+  <TR>    <TD></TD>
+    <TD>Test</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMO0qNEe-lXMAnwStbdQ</TD>
+    <TD>https://clm.celeris.se/rm/types/AT_cXmMNUqNEe-lXMAnwStbdQ#_cXmMO0qNEe-lXMAnwStbdQ</TD>
+  </TR>
+</TABLE>
+<h2>Link Types</h2>
+
+<TABLE><THEADING>
+<TH>Name</TH><TH>URI</TH><TH>RDF URI</TH><TH>Label</TH><TH>Inverse Label</TH></THEADING>
+  <TR>    <TD>'Approved By'</TD>
+    <TD>https://clm.celeris.se/rm/types/AD_cc0DzEqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+    <TD>Approved By</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>'Child Of'</TD>
+    <TD>rdm_types:Decomposition</TD>
+    <TD>rdm_types:Decomposition</TD>
+    <TD>Child Of</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>Contributor</TD>
+    <TD>dcterms:contributor</TD>
+    <TD>dcterms:contributor</TD>
+    <TD>Contributor</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>Creator</TD>
+    <TD>dcterms:creator</TD>
+    <TD>dcterms:creator</TD>
+    <TD>Creator</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>'Derives Architecture Element'</TD>
+    <TD>http://jazz.net/ns/dm/linktypes#derives</TD>
+    <TD>http://jazz.net/ns/dm/linktypes#derives</TD>
+    <TD>Derives Architecture Element</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>'Elaborated By'</TD>
+    <TD>oslc_rm:elaboratedBy</TD>
+    <TD>oslc_rm:elaboratedBy</TD>
+    <TD>Elaborated By</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>Elaborates</TD>
+    <TD>oslc_rm:elaborates</TD>
+    <TD>oslc_rm:elaborates</TD>
+    <TD>Elaborates</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>Embeds</TD>
+    <TD>rdm_types:Embedding</TD>
+    <TD>rdm_types:Embedding</TD>
+    <TD>Embeds</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>Extracted</TD>
+    <TD>rdm_types:Extraction</TD>
+    <TD>rdm_types:Extraction</TD>
+    <TD>Extracted</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>'Link To'</TD>
+    <TD>rdm_types:Link</TD>
+    <TD>rdm_types:Link</TD>
+    <TD>Link To</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>Mitigates</TD>
+    <TD>https://clm.celeris.se/rm/types/LT_cc0DckqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+    <TD>Mitigates</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>References</TD>
+    <TD>dcterms:references</TD>
+    <TD>dcterms:references</TD>
+    <TD>References</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>'References Term'</TD>
+    <TD>rdm_types:ArtifactTermReferenceLink</TD>
+    <TD>rdm_types:ArtifactTermReferenceLink</TD>
+    <TD>References Term</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>'Refined By Architecture Element'</TD>
+    <TD>http://jazz.net/ns/dm/linktypes#refine</TD>
+    <TD>http://jazz.net/ns/dm/linktypes#refine</TD>
+    <TD>Refined By Architecture Element</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>'Satisfied By Architecture Element'</TD>
+    <TD>http://jazz.net/ns/dm/linktypes#satisfy</TD>
+    <TD>http://jazz.net/ns/dm/linktypes#satisfy</TD>
+    <TD>Satisfied By Architecture Element</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>Satisfies</TD>
+    <TD>https://clm.celeris.se/rm/types/LT_cc0DcUqNEe-lXMAnwStbdQ</TD>
+    <TD></TD>
+    <TD>Satisfies</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>'Specified By'</TD>
+    <TD>oslc_rm:specifiedBy</TD>
+    <TD>oslc_rm:specifiedBy</TD>
+    <TD>Specified By</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>Specifies</TD>
+    <TD>oslc_rm:specifies</TD>
+    <TD>oslc_rm:specifies</TD>
+    <TD>Specifies</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>Synonym</TD>
+    <TD>rdm_types:SynonymLink</TD>
+    <TD>rdm_types:SynonymLink</TD>
+    <TD>Synonym</TD>
+    <TD>None</TD>
+  </TR>
+  <TR>    <TD>'Traced By Architecture Element'</TD>
+    <TD>http://jazz.net/ns/dm/linktypes#trace</TD>
+    <TD>http://jazz.net/ns/dm/linktypes#trace</TD>
+    <TD>Traced By Architecture Element</TD>
+    <TD>None</TD>
+  </TR>
+</TABLE>
+<H2>Prefixes</H2>
+<TABLE><THEADING>
+<TH>Prefix</TH><TH>URI</TH></THEADING>
+  <TR>    <TD>acc</TD>
+    <TD>http://open-services.net/ns/core/acc#</TD>
+  </TR>
+  <TR>    <TD>acp</TD>
+    <TD>http://jazz.net/ns/acp#</TD>
+  </TR>
+  <TR>    <TD>atom</TD>
+    <TD>http://www.w3.org/2005/Atom</TD>
+  </TR>
+  <TR>    <TD>config_ext</TD>
+    <TD>http://jazz.net/ns/config_ext#</TD>
+  </TR>
+  <TR>    <TD>dc</TD>
+    <TD>http://purl.org/dc/elements/1.1/</TD>
+  </TR>
+  <TR>    <TD>dcterms</TD>
+    <TD>http://purl.org/dc/terms/</TD>
+  </TR>
+  <TR>    <TD>dng_reqif</TD>
+    <TD>http://jazz.net/ns/rm/dng/reqif#</TD>
+  </TR>
+  <TR>    <TD>dng_task</TD>
+    <TD>http://jazz.net/ns/rm/dng/task#</TD>
+  </TR>
+  <TR>    <TD>dng_trs</TD>
+    <TD>http://jazz.net/ns/rm/dng/trs#</TD>
+  </TR>
+  <TR>    <TD>dng_types</TD>
+    <TD>http://jazz.net/ns/rm/dng/types#</TD>
+  </TR>
+  <TR>    <TD>ds</TD>
+    <TD>http://jazz.net/xmlns/alm/rm/datasource/v0.1</TD>
+  </TR>
+  <TR>    <TD>foaf</TD>
+    <TD>http://xmlns.com/foaf/0.1/</TD>
+  </TR>
+  <TR>    <TD>gc</TD>
+    <TD>http://jazz.net/ns/globalconfig#</TD>
+  </TR>
+  <TR>    <TD>jazz_idp</TD>
+    <TD>http://jazz.net/ns/jazz/idp#</TD>
+  </TR>
+  <TR>    <TD>jazz_rm</TD>
+    <TD>http://jazz.net/ns/rm#</TD>
+  </TR>
+  <TR>    <TD>jfs</TD>
+    <TD>http://jazz.net/xmlns/prod/jazz/jfs/1.0/</TD>
+  </TR>
+  <TR>    <TD>jp</TD>
+    <TD>http://jazz.net/xmlns/prod/jazz/process/1.0/</TD>
+  </TR>
+  <TR>    <TD>jp06</TD>
+    <TD>http://jazz.net/xmlns/prod/jazz/process/0.6/</TD>
+  </TR>
+  <TR>    <TD>ldp</TD>
+    <TD>http://www.w3.org/ns/ldp#</TD>
+  </TR>
+  <TR>    <TD>ns</TD>
+    <TD>http://com.ibm.rdm/navigation#</TD>
+  </TR>
+  <TR>    <TD>oslc</TD>
+    <TD>http://open-services.net/ns/core#</TD>
+  </TR>
+  <TR>    <TD>oslc_am</TD>
+    <TD>http://open-services.net/ns/am#</TD>
+  </TR>
+  <TR>    <TD>oslc_auto</TD>
+    <TD>http://open-services.net/ns/auto#</TD>
+  </TR>
+  <TR>    <TD>oslc_cm</TD>
+    <TD>http://open-services.net/xmlns/cm/1.0/</TD>
+  </TR>
+  <TR>    <TD>oslc_cm1</TD>
+    <TD>http://open-services.net/ns/cm#</TD>
+  </TR>
+  <TR>    <TD>oslc_cm_10</TD>
+    <TD>http://open-services.net/xmlns/cm/1.0/cm#</TD>
+  </TR>
+  <TR>    <TD>oslc_config</TD>
+    <TD>http://open-services.net/ns/config#</TD>
+  </TR>
+  <TR>    <TD>oslc_config_ext</TD>
+    <TD>http://jazz.net/ns/config_ext#</TD>
+  </TR>
+  <TR>    <TD>oslc_qm</TD>
+    <TD>http://open-services.net/ns/qm#</TD>
+  </TR>
+  <TR>    <TD>oslc_qm_10</TD>
+    <TD>http://open-services.net/xmlns/qm/1.0/</TD>
+  </TR>
+  <TR>    <TD>oslc_rm</TD>
+    <TD>http://open-services.net/ns/rm#</TD>
+  </TR>
+  <TR>    <TD>oslc_rm_10</TD>
+    <TD>http://open-services.net/xmlns/rm/1.0/</TD>
+  </TR>
+  <TR>    <TD>owl</TD>
+    <TD>http://www.w3.org/2002/07/owl#</TD>
+  </TR>
+  <TR>    <TD>process</TD>
+    <TD>http://jazz.net/ns/process#</TD>
+  </TR>
+  <TR>    <TD>prov</TD>
+    <TD>http://www.w3.org/ns/prov#</TD>
+  </TR>
+  <TR>    <TD>public_rm_10</TD>
+    <TD>http://www.ibm.com/xmlns/rm/public/1.0/</TD>
+  </TR>
+  <TR>    <TD>qm_ns2</TD>
+    <TD>http://jazz.net/xmlns/alm/qm/v0.1/</TD>
+  </TR>
+  <TR>    <TD>qm_rqm</TD>
+    <TD>http://jazz.net/ns/qm/rqm#</TD>
+  </TR>
+  <TR>    <TD>rdf</TD>
+    <TD>http://www.w3.org/1999/02/22-rdf-syntax-ns#</TD>
+  </TR>
+  <TR>    <TD>rdfs</TD>
+    <TD>http://www.w3.org/2000/01/rdf-schema#</TD>
+  </TR>
+  <TR>    <TD>rdm_types</TD>
+    <TD>http://www.ibm.com/xmlns/rdm/types/</TD>
+  </TR>
+  <TR>    <TD>rm</TD>
+    <TD>http://www.ibm.com/xmlns/rdm/rdf/</TD>
+  </TR>
+  <TR>    <TD>rm_config</TD>
+    <TD>http://jazz.net/ns/rm/dng/config#</TD>
+  </TR>
+  <TR>    <TD>rm_ds</TD>
+    <TD>http://jazz.net/xmlns/alm/rm/datasource/v0.1</TD>
+  </TR>
+  <TR>    <TD>rm_modules</TD>
+    <TD>http://jazz.net/ns/rm/dng/module#</TD>
+  </TR>
+  <TR>    <TD>rm_nav</TD>
+    <TD>http://jazz.net/ns/rm/navigation#</TD>
+  </TR>
+  <TR>    <TD>rm_text</TD>
+    <TD>http://jazz.net/xmlns/alm/rm/text/v0.1</TD>
+  </TR>
+  <TR>    <TD>rm_view</TD>
+    <TD>http://jazz.net/ns/rm/dng/view#</TD>
+  </TR>
+  <TR>    <TD>rqm</TD>
+    <TD>http://jazz.net/xmlns/prod/jazz/rqm/qm/1.0/</TD>
+  </TR>
+  <TR>    <TD>rrm</TD>
+    <TD>http://www.ibm.com/xmlns/rrm/1.0/</TD>
+  </TR>
+  <TR>    <TD>rtc_cm</TD>
+    <TD>http://jazz.net/xmlns/prod/jazz/rtc/cm/1.0/</TD>
+  </TR>
+  <TR>    <TD>trs</TD>
+    <TD>http://open-services.net/ns/core/trs#</TD>
+  </TR>
+  <TR>    <TD>trspatch</TD>
+    <TD>http://open-services.net/ns/core/trspatch#</TD>
+  </TR>
+  <TR>    <TD>xhtml</TD>
+    <TD>http://www.w3.org/1999/xhtml</TD>
+  </TR>
+  <TR>    <TD>xml</TD>
+    <TD>http://www.w3.org/XML/1998/namespace</TD>
+  </TR>
+  <TR>    <TD>xs</TD>
+    <TD>http://www.w3.org/2001/XMLSchema</TD>
+  </TR>
+  <TR>    <TD>xsd</TD>
+    <TD>http://www.w3.org/2001/XMLSchema#</TD>
+  </TR>
+</TABLE>
+</BODY></HTML>
