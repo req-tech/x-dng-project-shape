@@ -4,8 +4,8 @@ echo Starting execution at: %time% on %date%
 set start_time=%time%
 
 set server=https://clm.celeris.se
-set user="Lasse Mikkonen"
-set password=K541038b
+set user=""
+set password=xxx
 
 echo Step 1: Getting available projects - Started at %time%
 oslcquery -J %server% -U %user% -P %password% -p "X" > projects.txt
